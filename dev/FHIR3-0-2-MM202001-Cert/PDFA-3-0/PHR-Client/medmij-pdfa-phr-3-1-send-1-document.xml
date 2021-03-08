@@ -8,7 +8,7 @@
    <version value="stu3-2.0"/>
    <name value="PDFA - PHR Client - Scenario 3.1 - Send One Document"/>
    <status value="active"/>
-   <date value="2021-03-03"/>
+   <date value="2021-03-08"/>
    <publisher value="Nictiz"/>
    <contact>
       <name value="Nictiz"/>
@@ -249,6 +249,39 @@
             <description value="Confirm that request Bundle is of type transaction."/>
             <direction value="request"/>
             <expression value="Bundle.type = 'transaction'"/>
+         </assert>
+      </action>
+      <action>
+         <assert>
+            <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
+               <valueBoolean value="false"/>
+            </extension>
+            <description value="Confirm that the returned searchset Bundle contains 1 DocumentReference resource(s). "/>
+            <direction value="request"/>
+            <expression value="Bundle.entry.where(resource.is(DocumentReference)).count() = 1"/>
+            <warningOnly value="false"/>
+         </assert>
+      </action>
+      <action>
+         <assert>
+            <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
+               <valueBoolean value="false"/>
+            </extension>
+            <description value="Confirm that the returned searchset Bundle contains 1 Binary resource(s). "/>
+            <direction value="request"/>
+            <expression value="Bundle.entry.where(resource.is(Binary)).count() = 1"/>
+            <warningOnly value="false"/>
+         </assert>
+      </action>
+      <action>
+         <assert>
+            <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
+               <valueBoolean value="false"/>
+            </extension>
+            <description value="Confirm that the returned searchset Bundle contains 1 Patient resource(s). "/>
+            <direction value="request"/>
+            <expression value="Bundle.entry.where(resource.is(Patient)).count() = 1"/>
+            <warningOnly value="false"/>
          </assert>
       </action>
    </test>
