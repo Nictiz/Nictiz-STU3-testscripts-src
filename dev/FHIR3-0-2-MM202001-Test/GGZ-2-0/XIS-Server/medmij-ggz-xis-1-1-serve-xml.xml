@@ -2845,9 +2845,9 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="false"/>
             </extension>
-            <description value="Confirm that the returned searchset Bundle contains 14 Observation resource(s). "/>
+            <description value="Confirm that the returned searchset Bundle contains 1 Observation resource(s). "/>
             <direction value="response"/>
-            <expression value="Bundle.entry.where(resource.is(Observation)).count() = 14"/>
+            <expression value="Bundle.entry.where(resource.is(Observation)).count() = 1"/>
             <warningOnly value="false"/>
          </assert>
       </action>
