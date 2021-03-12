@@ -8,7 +8,7 @@
    <version value="stu3-3.0"/>
    <name value="BgLZ - XIS Server - Scenario 1.1 - Serve BgLZ resources of XXX-Mutter - JSON Format"/>
    <status value="active"/>
-   <date value="2021-02-11"/>
+   <date value="2021-03-12"/>
    <publisher value="Nictiz"/>
    <contact>
       <name value="Nictiz"/>
@@ -1530,9 +1530,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="false"/>
             </extension>
-            <label value="internalCount"/>
-            <!-- This count is for internal use. During build, it is altered for an external version with a count of 1 -->
-            <description value="Confirm that the returned searchset Bundle contains 2 CarePlan resources, both a structured and an unstructured care plan (assert for internal use)."/>
+            <description value="Confirm that the returned searchset Bundle contains 2 CarePlan resources."/>
             <direction value="response"/>
             <expression value="Bundle.entry.where(resource.is(CarePlan)).count() = 2"/>
          </assert>
