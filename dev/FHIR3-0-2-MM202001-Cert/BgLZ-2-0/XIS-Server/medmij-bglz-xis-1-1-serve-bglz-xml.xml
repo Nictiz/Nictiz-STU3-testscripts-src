@@ -1527,7 +1527,6 @@
             <expression value="Bundle.entry.where(resource.is(CarePlan)).count() = 1"/>
          </assert>
       </action>
-      <!-- Count assert = 2 because there are two CarePlan resources living on our WildFHIR server (one based on Resource.text and the other completely structured. Please see https://bits.nictiz.nl/browse/MM-1432 for more info. -->
       <action>
          <assert>
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
