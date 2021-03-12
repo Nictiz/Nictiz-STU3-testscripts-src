@@ -1517,17 +1517,17 @@
             <expression value="Bundle.descendants().where($this.is(CodeableConcept)) .all((coding.display.exists() or (coding.exists().not() and text.exists())) or extension.exists())"/>
          </assert>
       </action>
+      <!-- Count assert = 2 because there are two CarePlan resources living on our WildFHIR server (one based on Resource.text and the other completely structured. Please see https://bits.nictiz.nl/browse/MM-1432 for more info. -->
       <action>
          <assert>
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="false"/>
             </extension>
-            <description value="Confirm that the returned searchset Bundle contains 1 CarePlan resources."/>
+            <description value="Confirm that the returned searchset Bundle contains 2 CarePlan resources."/>
             <direction value="response"/>
-            <expression value="Bundle.entry.where(resource.is(CarePlan)).count() = 1"/>
+            <expression value="Bundle.entry.where(resource.is(CarePlan)).count() = 2"/>
          </assert>
       </action>
-      <!-- Count assert = 2 because there are two CarePlan resources living on our WildFHIR server (one based on Resource.text and the other completely structured. Please see https://bits.nictiz.nl/browse/MM-1432 for more info. -->
       <action>
          <assert>
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
