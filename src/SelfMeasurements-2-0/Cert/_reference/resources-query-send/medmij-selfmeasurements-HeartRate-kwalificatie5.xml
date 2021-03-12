@@ -1,5 +1,5 @@
 <Observation xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://hl7.org/fhir/STU3/observation.xsd">
-    <id value="medmij-selfmeasurements-HeartRate-kwalificatie4"/>
+    <id value="medmij-selfmeasurements-HeartRate-kwalificatie5"/>
     <meta>
         <profile value="http://nictiz.nl/fhir/StructureDefinition/zib-HeartRate"/>
     </meta>
@@ -22,13 +22,13 @@
         <reference value="Patient/selfmeasurement-patient-kwalificatie2"/>
         <display value="Marieke XXX_Bergzoon"/>
     </subject>
-    <effectiveDateTime value="${DATE, T, D, -22}T08:20:00+02:00"/>
+    <effectiveDateTime value="${DATE, T, D, -37}T08:15:00+02:00"/>
     <performer>
         <reference value="Patient/selfmeasurement-patient-kwalificatie2"/>
         <display value="Marieke XXX_Bergzoon"/>
     </performer>
     <valueQuantity>
-        <value value="93"/>
+        <value value="76"/>
         <unit value="/min"/>
         <system value="http://unitsofmeasure.org"/>
         <code value="/min"/>
@@ -40,7 +40,6 @@
             <display value="Hartslag regelmatig"/>
         </coding>
     </interpretation>
-    <comment value ="Na Traplopen"/>
     <method>
         <coding>
             <system value="http://snomed.info/sct"/>
