@@ -8,7 +8,7 @@
    <version value="stu3-2.0"/>
    <name value="PDFA - XIS Server - Scenario 2.4 - Serve 1 DocumentReference resource by resolving reference from DocumentManifest - JSON Format"/>
    <status value="active"/>
-   <date value="2021-02-11"/>
+   <date value="2021-03-17"/>
    <publisher value="Nictiz"/>
    <contact>
       <name value="Nictiz"/>
@@ -258,8 +258,8 @@
                <system value="http://hl7.org/fhir/testscript-operation-codes"/>
                <code value="read"/>
             </type>
-            <resource value="Binary"/>
-            <description value="Test XIS server to serve Binary resource."/>
+            <resource value="DocumentReference"/>
+            <description value="Test XIS server to serve DocumentReference resource."/>
             <accept value="json"/>
             <destination value="1"/>
             <origin value="1"/>
