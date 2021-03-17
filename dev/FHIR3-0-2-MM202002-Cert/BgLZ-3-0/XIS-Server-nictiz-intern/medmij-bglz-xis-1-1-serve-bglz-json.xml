@@ -8,7 +8,7 @@
    <version value="stu3-3.0"/>
    <name value="BgLZ - XIS Server - Scenario 1.1 - Serve BgLZ resources of XXX-Mutter - JSON Format"/>
    <status value="active"/>
-   <date value="2021-03-12"/>
+   <date value="2021-03-17"/>
    <publisher value="Nictiz"/>
    <contact>
       <name value="Nictiz"/>
@@ -1530,9 +1530,10 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="false"/>
             </extension>
-            <description value="Confirm that the returned searchset Bundle contains 2 CarePlan resources."/>
+            <description value="Confirm that the returned searchset Bundle contains 2 CarePlan resource(s). "/>
             <direction value="response"/>
             <expression value="Bundle.entry.where(resource.is(CarePlan)).count() = 2"/>
+            <warningOnly value="false"/>
          </assert>
       </action>
       <action>
