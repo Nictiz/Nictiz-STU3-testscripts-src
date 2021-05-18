@@ -10,7 +10,7 @@
     <test id="Scenario-3-1e">
         <name value="Scenario 3.1e"/>
         <description value="Filter op gebruiksperiode, alles vanaf T-21."/>
-        <nts:include nts:in-targets="PHR-Client-Nictiz-Intern" value="phr-operation-search-dispense612conversion.xml">
+        <nts:include nts:in-targets="Nictiz-Intern" value="phr-operation-search-dispense612conversion.xml">
             <nts:with-parameter name="description"
                 value="Test PHR Client search operation - Filter op gebruiksperiode, alles vanaf T-21."/>
             <nts:with-parameter name="accept" value="xml"/>
