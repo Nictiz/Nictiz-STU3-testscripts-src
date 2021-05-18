@@ -10,14 +10,20 @@
     <test id="Scenario-3-1b">
         <name value="Scenario 3.1b"/>
         <description value="Filter op verstrekkingsperiode, alles vanaf T-90."/>
-        <nts:include value="phr-operation-search-dispense612conversion.xml">
+        <nts:include nts:in-targets="Nictiz-Intern" value="phr-operation-search-dispense612conversion.xml">
             <nts:with-parameter name="description"
                 value="Test PHR Client search operation - Filter op verstrekkingsperiode, alles vanaf T-90."/>
             <nts:with-parameter name="accept" value="xml"/>
-            <nts:with-parameter name="internal-searchparams" value="&amp;requestdate=ge${DATE, T, D,-90}"/>
+            <nts:with-parameter  name="internal-searchparams" value="&amp;requestdate=ge${DATE, T, D,-90}"/>
         </nts:include>
-        <nts:rule id="assertRequestURLContains" href="rule/assertRequestURLContains.groovy"/>
-        <action>
+        <nts:include nts:in-targets="#default" value="phr-operation-search-dispense612conversion.xml">
+            <nts:with-parameter name="description"
+                value="Test PHR Client search operation - Filter op verstrekkingsperiode, alles vanaf T-90."/>
+            <nts:with-parameter name="accept" value="xml"/>
+            <nts:with-parameter  name="internal-searchparams" value=""/>
+        </nts:include>
+        <nts:rule nts:in-targets="#default" id="assertRequestURLContains" href="rule/assertRequestURLContains.groovy"/>
+        <action nts:in-targets="#default">
             <assert>
                 <direction value="request"/>
                 <rule>

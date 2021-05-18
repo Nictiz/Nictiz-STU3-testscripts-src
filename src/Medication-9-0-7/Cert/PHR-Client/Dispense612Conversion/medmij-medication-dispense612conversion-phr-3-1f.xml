@@ -9,15 +9,21 @@
     
     <test id="Scenario-3-1f">
         <name value="Scenario 3.1f"/>
-        <description value="Filter op gebruiksperiode, alles vóór T-21."/>
-        <nts:include value="phr-operation-search-dispense612conversion.xml">
+        <description value="Filter op gebruiksperiode, alles vóór T-21."/>      
+        <nts:include nts:in-targets="Nictiz-Intern" value="phr-operation-search-dispense612conversion.xml">
             <nts:with-parameter name="description"
                 value="Test PHR Client search operation - Filter op gebruiksperiode, alles vóór T-21."/>
             <nts:with-parameter name="accept" value="xml"/>
-            <nts:with-parameter name="internal-searchparams" value="&amp;periodofuse=le${DATE, T, D,-22}"/>
+            <nts:with-parameter nts:in-targets="Nictiz-Intern" name="internal-searchparams" value="&amp;periodofuse=le${DATE, T, D,-22}"/>
         </nts:include>
-        <nts:rule id="assertRequestURLContains" href="rule/assertRequestURLContains.groovy"/>
-        <action>
+        <nts:include nts:in-targets="#default" value="phr-operation-search-dispense612conversion.xml">
+            <nts:with-parameter name="description"
+                value="Test PHR Client search operation - Filter op gebruiksperiode, alles vóór T-21."/>
+            <nts:with-parameter name="accept" value="xml"/>
+            <nts:with-parameter nts:in-targets="Nictiz-Intern" name="internal-searchparams" value=""/>
+        </nts:include>
+        <nts:rule nts:in-targets="#default" id="assertRequestURLContains" href="rule/assertRequestURLContains.groovy"/>
+        <action nts:in-targets="#default">
             <assert>
                 <direction value="request"/>
                 <rule>
