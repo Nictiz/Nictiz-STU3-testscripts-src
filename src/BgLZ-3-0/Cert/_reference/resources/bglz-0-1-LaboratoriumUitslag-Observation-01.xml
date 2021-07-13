@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Observation xmlns="http://hl7.org/fhir">
    <id value="bglz-0-1-laboratoriumuitslag-observation-01"/>
    <meta>
@@ -35,6 +36,10 @@
          </table>
       </div>
    </text>
+   <identifier>
+      <system value="https://example.org/nictiz/basic-components/identification-number"/>
+      <value value="8114e8bb-e3e1-11eb-1790-020000000000"/>
+   </identifier>
    <status value="final"/>
    <category>
       <coding>

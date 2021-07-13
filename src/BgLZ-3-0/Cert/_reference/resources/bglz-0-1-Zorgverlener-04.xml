@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Practitioner xmlns="http://hl7.org/fhir">
    <id value="bglz-0-1-zorgverlener-04"/>
    <meta>
@@ -9,6 +10,10 @@
          <div>Thomas T. Janssen</div>
       </div>
    </text>
+   <identifier>
+      <system value="https://example.org/nictiz/basic-components/identification-number"/>
+      <value value="87a61f5b-e3e1-11eb-1713-020000000000"/>
+   </identifier>
    <name>
       <family value="Janssen">
          <extension url="http://hl7.org/fhir/StructureDefinition/humanname-own-name">

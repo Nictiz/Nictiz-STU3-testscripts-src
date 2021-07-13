@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <PractitionerRole xmlns="http://hl7.org/fhir">
    <id value="bglz-0-1-zorgverlenerrol-03"/>
    <meta>
@@ -25,6 +26,10 @@
          </table>
       </div>
    </text>
+   <identifier>
+      <system value="https://example.org/nictiz/basic-components/identification-number"/>
+      <value value="8905fd7b-e3e1-11eb-6748-020000000000"/>
+   </identifier>
    <practitioner>
       <reference value="Practitioner/bglz-0-1-zorgverlener-03"/>
       <display value="Petra Johanna Vreeswijk"/>

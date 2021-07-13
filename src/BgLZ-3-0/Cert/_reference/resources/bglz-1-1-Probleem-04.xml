@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Condition xmlns="http://hl7.org/fhir">
    <id value="bglz-1-1-probleem-04"/>
    <meta>
@@ -23,6 +24,10 @@
          </table>
       </div>
    </text>
+   <identifier>
+      <system value="https://example.org/nictiz/basic-components/identification-number"/>
+      <value value="923ba02b-e3e1-11eb-1189-020000000000"/>
+   </identifier>
    <clinicalStatus value="active">
       <extension url="http://nictiz.nl/fhir/StructureDefinition/code-specification">
          <valueCodeableConcept>
