@@ -1,5 +1,5 @@
 <Condition xmlns="http://hl7.org/fhir">
-   <id value="zib-Problem-mp9-4f6a2d60-8b3f-11eb-7848-020000000000"/>
+   <id value="zib-Problem-mp9-baa4681a-e3c1-11eb-6765-020000000000"/>
    <meta>
       <profile value="http://nictiz.nl/fhir/StructureDefinition/zib-Problem"/>
    </meta>
@@ -7,12 +7,12 @@
       <status value="extensions"/>
       <div xmlns="http://www.w3.org/1999/xhtml">
          <table>
-            <caption>Aandoening. Subject: D. XXX-CSC-Smoketest-B. Status: <i>onbekend (ontbrekend gegeven)</i>
+            <caption>Aandoening. Subject: C. XXX_Vonker. Status: <i>onbekend (ontbrekend gegeven)</i>
             </caption>
             <tbody>
                <tr>
                   <th>Code</th>
-                  <td>Rosacea</td>
+                  <td>Reumatoide artritis</td>
                </tr>
             </tbody>
          </table>
@@ -27,10 +27,10 @@
       <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
          <valueCode value="OTH"/>
       </extension>
-      <text value="Rosacea"/>
+      <text value="Reumatoide artritis"/>
    </code>
    <subject>
-      <reference value="Patient/D-XXX-CSC-SMOKETEST-B"/>
-      <display value="D. XXX-CSC-Smoketest-B"/>
+      <reference value="Patient/XXX-VONKER"/>
+      <display value="C. XXX_Vonker"/>
    </subject>
 </Condition>
