@@ -1,5 +1,5 @@
 <PractitionerRole xmlns="http://hl7.org/fhir">
-   <id value="l-core-practitionerrole-mp9-c8568fc1-e3c1-11eb-1912-020000000000"/>
+   <id value="l-core-practitionerrole-mp9-37e86e75-dfe2-11eb-8640-020000000000"/>
    <meta>
       <profile value="http://fhir.nl/fhir/StructureDefinition/nl-core-practitionerrole"/>
    </meta>
@@ -31,7 +31,7 @@
       <display value="Peter van Pulver"/>
    </practitioner>
    <organization>
-      <reference value="Organization/nl-core-organization-mp9-c8568fd6-e3c1-11eb-1912-020000000000"/>
+      <reference value="Organization/nl-core-organization-mp9-2-16-528-1-1007-3-3-00001111"/>
       <display value="Huisartsenpraktijk Pulver &amp; Partners"/>
    </organization>
    <specialty>

@@ -1,5 +1,5 @@
 <PractitionerRole xmlns="http://hl7.org/fhir">
-   <id value="l-core-practitionerrole-mp9-c8569c5b-e3c1-11eb-1912-020000000000"/>
+   <id value="l-core-practitionerrole-mp9-376933c2-dfe2-11eb-2140-020000000000"/>
    <meta>
       <profile value="http://fhir.nl/fhir/StructureDefinition/nl-core-practitionerrole"/>
    </meta>
@@ -12,8 +12,8 @@
                <tr>
                   <th>Zorgverlener</th>
                   <td>
-                     <div>John de Vries</div>
-                     <div>Huisartsenpraktijk Pulver &amp; Partners</div>
+                     <div>Hans van Doorn</div>
+                     <div>Ziekenhuis Stitswerd</div>
                   </td>
                </tr>
                <tr>
@@ -27,12 +27,12 @@
       </div>
    </text>
    <practitioner>
-      <reference value="Practitioner/nl-core-practitioner-mp9-c856a044-e3c1-11eb-1912-020000000000"/>
-      <display value="John de Vries"/>
+      <reference value="Practitioner/nl-core-practitioner-mp9-2-16-528-1-1007-3-1-999001112"/>
+      <display value="Hans van Doorn"/>
    </practitioner>
    <organization>
-      <reference value="Organization/nl-core-organization-mp9-2-16-528-1-1007-3-3-00001111"/>
-      <display value="Huisartsenpraktijk Pulver &amp; Partners"/>
+      <reference value="Organization/nl-core-organization-mp9-2-16-528-1-1007-3-3-99901111"/>
+      <display value="Ziekenhuis Stitswerd"/>
    </organization>
    <specialty>
       <coding>
