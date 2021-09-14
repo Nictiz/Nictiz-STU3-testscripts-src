@@ -18,6 +18,10 @@
          </table>
       </div>
    </text>
+   <identifier>
+      <system value="https://example.org/nictiz/basic-components/identification-number"/>
+      <value value="9de8a24c-f536-11eb-3800-020000000000"/>
+   </identifier>
    <code>
       <coding>
          <system value="urn:oid:2.16.840.1.113883.2.4.4.10"/>
