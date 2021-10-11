@@ -8,7 +8,7 @@ for /d %%i in (%cd%\*) do (
    set "folder=%%~nxi"
    cd "%%i"
    echo --- !folder! ---
-   echo | call "build-!project!-!folder!.bat"
+   echo | call "build-!project!-!folder!.bat" %*
    cd ..
 )
 
