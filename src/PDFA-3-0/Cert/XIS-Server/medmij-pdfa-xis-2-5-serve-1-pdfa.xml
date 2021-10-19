@@ -52,12 +52,10 @@
         <nts:include value="assert-responseSuccess" scope="common"/>
         <action>
             <assert>
-                <description value="Confirm that the returned resource type is either a Binary or PDF."/>
+                <description value="Confirm that the returned resource type is Binary. Set to warning only because the response does not have to be a Binary."/>
                 <direction value="response"/>
-                <nts:rule id="assertPDFOrBinary" href="rule/assertPDFOrBinary.groovy"/>
-                <rule>
-                    <ruleId value="assertPDFOrBinary"/>
-                </rule>
+                <resource value="Binary"/>
+                <warningOnly value="true"/>
             </assert>
         </action>
     </test>
