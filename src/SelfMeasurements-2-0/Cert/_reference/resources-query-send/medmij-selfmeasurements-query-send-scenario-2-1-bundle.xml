@@ -85,7 +85,11 @@
                <status value="extensions"/>
                <div xmlns="http://www.w3.org/1999/xhtml">
                   <table>
+<<<<<<< HEAD
                      <caption>Observatie/bepaling. Subject: Marieke XXX_Bergzoon. Id: c471122b-04e1-11ec-2817-020000000000 (https://example.org/nictiz/basic-components/identification-number), Categorie: <span title="Vital Signs (vital-signs - observation-category)">Vital Signs</span>, Status: definitief<span style="display: block;">Uitvoerende: Marieke XXX_Bergzoon</span>
+=======
+                     <caption>Observatie/bepaling. Subject: Marieke XXX_Bergzoon. Categorie: <span title="Vital Signs (vital-signs - observation-category)">Vital Signs</span>, Status: definitief<span style="display: block;">Uitvoerende: Marieke XXX_Bergzoon</span>
+>>>>>>> parent of 21985b11 (MM-2636 Added an Identifier to the bundle scenario's and equalize the bundle information at Scenario 2.1 with the resources from scenario 1.x)
                      </caption>
                      <tbody>
                         <tr>
@@ -114,10 +118,6 @@
                   </table>
                </div>
             </text>
-            <identifier>
-               <system value="https://example.org/nictiz/basic-components/identification-number"/>
-               <value value="c471122b-04e1-11ec-2817-020000000000"/>
-            </identifier>
             <status value="final"/>
             <category>
                <coding>
@@ -171,6 +171,7 @@
          <url value="Observation"/>
       </request>
    </entry>
+<<<<<<< HEAD
    <!--selfmeasurements-bodyweight-kwalificatie7-->
    <entry>
       <fullUrl value="urn:oid:2.16.840.1.113883.2.4.3.11.9999.3"/>
@@ -367,4 +368,6 @@
          <url value="Observation"/>
       </request>
    </entry>
+=======
+>>>>>>> parent of 21985b11 (MM-2636 Added an Identifier to the bundle scenario's and equalize the bundle information at Scenario 2.1 with the resources from scenario 1.x)
 </Bundle>
