@@ -15,7 +15,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Patient"
             params="?_include=Patient:general-practitioner"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.numResources" scope="common"
             resource="Patient" count="1"/>
     </test>
@@ -26,7 +26,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Coverage"
             params="?_include=Coverage:payor:Patient&amp;_include=Coverage:payor:Organization"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -36,7 +36,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Consent"
             params="?category=http://snomed.info/sct|11291000146105"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -46,7 +46,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Consent"
             params="?category=http://snomed.info/sct|11341000146107"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -56,7 +56,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Observation"
             params="/$lastn?category=http://snomed.info/sct|118228005,http://snomed.info/sct|384821006"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -64,7 +64,7 @@
         <name value="Scenario 1.2 - Problem"/>
         <description value="Query Condition resource(s) for HCIM Problem"/>
         <nts:include value="medmij/test.phr.search" scope="common" resource="Condition"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -74,7 +74,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Observation"
             params="/$lastn?code=http://snomed.info/sct|365508006"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -84,7 +84,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Observation"
             params="?code=http://snomed.info/sct|228366006"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -94,7 +94,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Observation"
             params="?code=http://snomed.info/sct|228273003"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -104,7 +104,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Observation"
             params="?code=http://snomed.info/sct|365980008"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -112,7 +112,7 @@
         <name value="Scenario 1.2 - NutritionAdvice"/>
         <description value="Query NutritionOrder resource(s) for HCIM NutritionAdvice"/>
         <nts:include value="medmij/test.phr.search" scope="common" resource="NutritionOrder"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -120,7 +120,7 @@
         <name value="Scenario 1.2 - Alert"/>
         <description value="Query Flag resource(s) for HCIM Alert"/>
         <nts:include value="medmij/test.phr.search" scope="common" resource="Flag"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -128,7 +128,7 @@
         <name value="Scenario 1.2 - AllergyIntolerance"/>
         <description value="Query AllergyIntolerance resource(s) for HCIM AllergyIntolerance"/>
         <nts:include value="medmij/test.phr.search" scope="common" resource="AllergyIntolerance"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -139,7 +139,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="MedicationStatement"
             params="?category=urn:oid:2.16.840.1.113883.2.4.3.11.60.20.77.5.3|6&amp;_include=MedicationStatement:medication"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -150,7 +150,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="MedicationRequest"
             params="?category=http://snomed.info/sct|16076005&amp;_include=MedicationRequest:medication"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -161,7 +161,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="MedicationDispense"
             params="?category=http://snomed.info/sct|422037009&amp;_include=MedicationDispense:medication"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -172,7 +172,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="DeviceUseStatement"
             params="?_include=DeviceUseStatement:device"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -182,7 +182,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Immunization"
             params="?status=completed"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -192,7 +192,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Observation"
             params="/$lastn?code=http://loinc.org|85354-9"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -202,7 +202,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Observation"
             params="/$lastn?code=http://loinc.org|29463-7"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -212,7 +212,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Observation"
             params="/$lastn?code=http://loinc.org|8302-2,http://loinc.org|8306-3,http://loinc.org|8308-9"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -223,7 +223,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Observation"
             params="/$lastn?category=http://snomed.info/sct|275711006&amp;_include=Observation:related-target&amp;_include=Observation:specimen"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -233,7 +233,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Procedure"
             params="?category=http://snomed.info/sct|387713003"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -244,7 +244,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Encounter"
             params="?class=http://hl7.org/fhir/v3/ActCode|IMP,http://hl7.org/fhir/v3/ActCode|ACUTE,http://hl7.org/fhir/v3/ActCode|NONAC"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -255,7 +255,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="ProcedureRequest"
             params="?status=active"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -265,7 +265,7 @@
             value="Query ImmunizationRecommendation resource(s) for HCIM PlannedCareActivity-ImmunizationRecommendation"/>
         <nts:include value="medmij/test.phr.search" scope="common"
             resource="ImmunizationRecommendation"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -275,7 +275,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Appointment"
             params="?status=booked,pending,proposed"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 
@@ -286,7 +286,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="DeviceRequest"
             params="?status=active&amp;_include=DeviceRequest:device"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.noEntries" scope="common"/>
     </test>
 </TestScript>

@@ -17,7 +17,7 @@
 		<nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="Appointment"
             params="?date=ge${DATE, T, D,-30}&amp;date=le${DATE, T, D,-0}"/>
-		<nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+		<nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
 		<nts:include value="assert.response.numResources" scope="common"
             resource="Appointment" count="2"/>
 	</test>

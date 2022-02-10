@@ -16,7 +16,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="AllergyIntolerance"
             params="?category=medication"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.numResources" scope="common"
             resource="AllergyIntolerance" count="1"/>
     </test>

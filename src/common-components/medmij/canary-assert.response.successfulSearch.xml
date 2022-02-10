@@ -18,5 +18,5 @@
             <resource value="Bundle"/>
         </assert>
     </action>
-    <nts:include value="assert.response.successfulSearch" scope="common" nts:in-targets="Nictiz-intern"/>
+    <nts:include value="medmij/assert.response.successfulSearch" scope="common" nts:in-targets="Nictiz-intern"/>
 </nts:component>

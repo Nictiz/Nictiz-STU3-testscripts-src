@@ -14,7 +14,7 @@
         <nts:include value="medmij/test.phr.searchWithParams" scope="common"
             resource="DocumentReference"
             params="?status=current"/>
-        <nts:include value="canary-assert.response.successfulSearch" scope="common"/>
+        <nts:include value="medmij/canary-assert.response.successfulSearch" scope="common"/>
         <nts:include value="assert.response.numResources" scope="common"
             resource="DocumentReference" count="3"/>
     </test>
