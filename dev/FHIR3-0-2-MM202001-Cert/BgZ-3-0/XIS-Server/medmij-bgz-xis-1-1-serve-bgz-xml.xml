@@ -75,7 +75,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -307,7 +307,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -539,7 +539,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -760,7 +760,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -981,7 +981,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -1201,7 +1201,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -1411,7 +1411,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -1632,7 +1632,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -1853,7 +1853,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -2074,7 +2074,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -2294,7 +2294,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -2503,7 +2503,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -2712,7 +2712,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -2922,7 +2922,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -3154,7 +3154,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -3386,7 +3386,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -3618,7 +3618,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -3850,7 +3850,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -4071,7 +4071,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -4292,7 +4292,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -4513,7 +4513,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -4734,7 +4734,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -4966,7 +4966,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -5187,7 +5187,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -5408,7 +5408,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -5628,7 +5628,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -5838,7 +5838,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
@@ -6059,7 +6059,7 @@
             <extension url="http://touchstone.aegis.net/touchstone/fhir/testing/StructureDefinition/testscript-assert-stopTestOnFail">
                <valueBoolean value="true"/>
             </extension>
-            <description value="Confirm that the operation was succesful"/>
+            <description value="Confirm that the operation was successful"/>
             <operator value="in"/>
             <responseCode value="200,201"/>
          </assert>
