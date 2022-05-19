@@ -22,7 +22,7 @@
                   <th>Deel van lichaam</th>
                   <td>
                      <span title="Structuur van regio genus (lichaamsstructuur) (72696002 - SNOMED CT)">Structuur van regio genus (lichaamsstructuur)</span>
-                     <span title="Left (7771000 - SNOMED CT)">Left</span>
+                     <span title="Links (7771000 - SNOMED CT)">Links</span>
                   </td>
                </tr>
                <tr>
@@ -75,7 +75,7 @@
             <coding>
                <system value="http://snomed.info/sct"/>
                <code value="7771000"/>
-               <display value="Left"/>
+               <display value="Links"/>
             </coding>
          </valueCodeableConcept>
       </extension>
