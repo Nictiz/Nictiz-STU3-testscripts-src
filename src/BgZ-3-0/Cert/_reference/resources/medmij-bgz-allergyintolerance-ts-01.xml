@@ -32,7 +32,7 @@
                               <span title="Ernstig (kwalificatiewaarde) (24484000 - SNOMED CT)">Ernstig</span>
                            </div>
                            <div> 	
-                              <span title="Misselijkheid en braken (aandoening) (16932000 - SNOMED CT)">Misselijkheid en braken</span>
+                              <span title="Misselijkheid en braken (16932000 - SNOMED CT)">Misselijkheid en braken</span>
                            </div>
                         </li>
                      </ul>
@@ -98,7 +98,7 @@
          <coding>
             <system value="http://snomed.info/sct"/>
             <code value="16932000"/>
-            <display value="Misselijkheid en braken (aandoening)"/>
+            <display value="Misselijkheid en braken"/>
          </coding>
       </manifestation>
       <severity value="severe">

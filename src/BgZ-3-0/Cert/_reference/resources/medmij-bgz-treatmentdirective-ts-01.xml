@@ -15,12 +15,12 @@
                </tr>
                <tr>
                   <th>Geverifieerd</th>
-                  <td>ja - 9 april 2018 - <span title="Patiënt (persoon) (116154003 - SNOMED CT)">Patiënt (persoon)</span>
+                  <td>ja - 9 april 2018 - <span title="Patiënt (116154003 - SNOMED CT)">Patiënt</span>
                   </td>
                </tr>
                <tr>
                   <th>
-                     <span title="Kunstmatige beademing (verrichting)(40617009 - SNOMED CT)">Kunstmatige beademing (verrichting)</span>
+                     <span title="Kunstmatige beademing (40617009 - SNOMED CT)">Kunstmatige beademing</span>
                   </th>
                   <td>
                      <span title="Ja, maar met beperkingen (JA_MAAR - 2.16.840.1.113883.2.4.3.11.60.40.4)">Ja, maar met beperkingen</span>
@@ -48,7 +48,7 @@
             <coding>
                <system value="http://snomed.info/sct"/>
                <code value="116154003"/>
-               <display value="Patiënt (persoon)"/>
+               <display value="Patiënt"/>
             </coding>
          </valueCodeableConcept>
       </extension>
@@ -61,7 +61,7 @@
          <coding>
             <system value="http://snomed.info/sct"/>
             <code value="40617009"/>
-            <display value="Kunstmatige beademing (verrichting)"/>
+            <display value="Kunstmatige beademing"/>
          </coding>
       </valueCodeableConcept>
    </extension>
