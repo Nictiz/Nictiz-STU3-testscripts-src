@@ -17,13 +17,13 @@
                <tr>
                   <th>Methode</th>
                   <td>
-                     <span title="Non-invasief (kwalificatiewaarde) (22762002 - SNOMED CT)">Non-invasief (kwalificatiewaarde)</span>
+                     <span title="Niet-invasief (22762002 - SNOMED CT)">Niet-invasief</span>
                   </td>
                </tr>
                <tr>
                   <th>Deel van lichaam</th>
                   <td>
-                     <span title="Structuur van linker bovenarm (lichaamsstructuur) (368208006 - SNOMED CT)">Structuur van linker bovenarm (lichaamsstructuur)</span>
+                     <span title="Linker bovenarm (368208006 - SNOMED CT)">Linker bovenarm</span>
                   </td>
                </tr>
                <tr>
@@ -61,7 +61,7 @@
                      <span title="Body position with respect to gravity (8361-8 - LOINC)">Body position with respect to gravity</span>
                   </td>
                   <td>
-                     <span title="Zittende positie (bevinding) (33586001 - SNOMED CT)">Zittende positie</span>
+                     <span title="Zittende positie (33586001 - SNOMED CT)">Zittende positie</span>
                   </td>
                </tr>
             </tbody>
@@ -100,14 +100,14 @@
       <coding>
          <system value="http://snomed.info/sct"/>
          <code value="368208006"/>
-         <display value="Structuur van linker bovenarm (lichaamsstructuur)"/>
+         <display value="Linker bovenarm"/>
       </coding>
    </bodySite>
    <method>
       <coding>
          <system value="http://snomed.info/sct"/>
          <code value="22762002"/>
-         <display value="Non-invasief (kwalificatiewaarde)"/>
+         <display value="Niet-invasief"/>
       </coding>
    </method>
    <component>
@@ -168,7 +168,7 @@
          <coding>
             <system value="http://snomed.info/sct"/>
             <code value="33586001"/>
-            <display value="Zittende positie (bevinding)"/>
+            <display value="Zittende positie"/>
          </coding>
       </valueCodeableConcept>
    </component>
