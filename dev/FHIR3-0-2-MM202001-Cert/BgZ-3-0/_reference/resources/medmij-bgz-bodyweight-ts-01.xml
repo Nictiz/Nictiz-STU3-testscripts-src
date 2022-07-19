@@ -1,4 +1,4 @@
-<?xml-model href="http://hl7.org/fhir/STU3/observation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><Observation xmlns="http://hl7.org/fhir"
+<?xml-model href="http://hl7.org/fhir/STU3/observation.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><Observation xmlns="http://hl7.org/fhir" 
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://hl7.org/fhir/STU3/observation.xsd">
    <id value="medmij-bgz-bodyweight-ts-01"/>
@@ -63,6 +63,12 @@
    </subject>
    <effectiveDateTime value="2013-02-08"/>
    <performer>
+      <extension url="http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference">
+         <valueReference>
+            <reference value="PractitionerRole/medmij-bgz-practitionerrole-ts-02"/>
+            <display value="Orthopedie"/>
+         </valueReference>
+      </extension>
       <reference value="Practitioner/medmij-bgz-practitioner-ts-01"/>
       <display value="G.Z.M. de Wit"/>
    </performer>
