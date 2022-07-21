@@ -91,7 +91,7 @@
          <reference value="../_reference/AllergyIntoleranceConv/zib-AllergyIntolerance-cio-CIO-02-04.xml"/>
       </resource>
    </fixture>
-   <fixture id="Organization-d27e1-nl-core-organization-cio-2-16-528-1-1007-3-3-">
+   <fixture id="Organization-d26e1-nl-core-organization-cio-2-16-528-1-1007-3-3-">
       <resource>
          <reference value="../_reference/AllergyIntoleranceConv/nl-core-organization-cio-2-16-528-1-1007-3-3-03999999.xml"/>
       </resource>
@@ -126,7 +126,7 @@
          <reference value="../_reference/AllergyIntolerance20/XXX-TEST-F.xml"/>
       </resource>
    </fixture>
-   <fixture id="Practitioner-d28e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-">
+   <fixture id="Practitioner-d27e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-">
       <resource>
          <reference value="../_reference/AllergyIntoleranceConv/nl-core-practitioner-cio-2-16-528-1-1007-3-1-111111112.xml"/>
       </resource>
@@ -136,7 +136,7 @@
          <reference value="../_reference/AllergyIntolerance20/nl-core-practitioner-cio-2-16-528-1-1007-3-1-111111121.xml"/>
       </resource>
    </fixture>
-   <fixture id="Practitioner-d29e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-">
+   <fixture id="Practitioner-d28e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-">
       <resource>
          <reference value="../_reference/AllergyIntoleranceConv/nl-core-practitioner-cio-2-16-528-1-1007-3-1-222222223.xml"/>
       </resource>
@@ -146,7 +146,7 @@
          <reference value="../_reference/AllergyIntolerance20/nl-core-practitioner-cio-2-16-528-1-1007-3-1-222222232.xml"/>
       </resource>
    </fixture>
-   <fixture id="Practitioner-d30e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-">
+   <fixture id="Practitioner-d29e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-">
       <resource>
          <reference value="../_reference/AllergyIntoleranceConv/nl-core-practitioner-cio-2-16-528-1-1007-3-1-333333334.xml"/>
       </resource>
@@ -186,11 +186,6 @@
          <reference value="../_reference/AllergyIntolerance20/nl-core-practitionerrole-cio-33333334301-002.xml"/>
       </resource>
    </fixture>
-   <fixture id="RelatedPerson-d26e1-core-relatedperson-cio-PETERP-J-PETERVANDENH">
-      <resource>
-         <reference value="../_reference/AllergyIntoleranceConv/core-relatedperson-cio-PETERP-J-PETERVANDENHERIKVANXXX-STALEWSKA.xml"/>
-      </resource>
-   </fixture>
    <fixture id="RelatedPerson-nl-core-relatedperson-cio-ABRAHAMB-M-H-BRAMPASVEER">
       <resource>
          <reference value="../_reference/AllergyIntolerance20/nl-core-relatedperson-cio-ABRAHAMB-M-H-BRAMPASVEER.xml"/>
@@ -199,6 +194,11 @@
    <fixture id="RelatedPerson-nl-core-relatedperson-cio-MEIKEM-G-J-VANHOOF">
       <resource>
          <reference value="../_reference/AllergyIntoleranceConv/nl-core-relatedperson-cio-MEIKEM-G-J-VANHOOF.xml"/>
+      </resource>
+   </fixture>
+   <fixture id="RelatedPerson-d34e1-ore-relatedperson-cio-PETERP-J-PETERVAN-DENH">
+      <resource>
+         <reference value="../_reference/AllergyIntoleranceConv/ore-relatedperson-cio-PETERP-J-PETERVAN-DENHERIKVANXXX-STALEWSKA.xml"/>
       </resource>
    </fixture>
    <variable>
@@ -277,9 +277,9 @@
       <sourceId value="AllergyIntolerance-zib-AllergyIntolerance-cio-CIO-02-04"/>
    </variable>
    <variable>
-      <name value="Organization-d27e1-nl-core-organization-cio-2-16-528-1-1007-3-3--id"/>
+      <name value="Organization-d26e1-nl-core-organization-cio-2-16-528-1-1007-3-3--id"/>
       <expression value="Organization.id"/>
-      <sourceId value="Organization-d27e1-nl-core-organization-cio-2-16-528-1-1007-3-3-"/>
+      <sourceId value="Organization-d26e1-nl-core-organization-cio-2-16-528-1-1007-3-3-"/>
    </variable>
    <variable>
       <name value="Organization-d9e1-nl-core-organization-cio-2-16-840-1-113883-2-4-id"/>
@@ -312,9 +312,9 @@
       <sourceId value="Patient-XXX-TEST-F"/>
    </variable>
    <variable>
-      <name value="Practitioner-d28e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1--id"/>
+      <name value="Practitioner-d27e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1--id"/>
       <expression value="Practitioner.id"/>
-      <sourceId value="Practitioner-d28e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-"/>
+      <sourceId value="Practitioner-d27e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-"/>
    </variable>
    <variable>
       <name value="Practitioner-d10e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1--id"/>
@@ -322,9 +322,9 @@
       <sourceId value="Practitioner-d10e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-"/>
    </variable>
    <variable>
-      <name value="Practitioner-d29e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1--id"/>
+      <name value="Practitioner-d28e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1--id"/>
       <expression value="Practitioner.id"/>
-      <sourceId value="Practitioner-d29e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-"/>
+      <sourceId value="Practitioner-d28e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-"/>
    </variable>
    <variable>
       <name value="Practitioner-d11e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1--id"/>
@@ -332,9 +332,9 @@
       <sourceId value="Practitioner-d11e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-"/>
    </variable>
    <variable>
-      <name value="Practitioner-d30e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1--id"/>
+      <name value="Practitioner-d29e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1--id"/>
       <expression value="Practitioner.id"/>
-      <sourceId value="Practitioner-d30e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-"/>
+      <sourceId value="Practitioner-d29e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-"/>
    </variable>
    <variable>
       <name value="Practitioner-d12e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1--id"/>
@@ -372,11 +372,6 @@
       <sourceId value="PractitionerRole-nl-core-practitionerrole-cio-33333334301-002"/>
    </variable>
    <variable>
-      <name value="RelatedPerson-d26e1-core-relatedperson-cio-PETERP-J-PETERVANDENH-id"/>
-      <expression value="RelatedPerson.id"/>
-      <sourceId value="RelatedPerson-d26e1-core-relatedperson-cio-PETERP-J-PETERVANDENH"/>
-   </variable>
-   <variable>
       <name value="RelatedPerson-nl-core-relatedperson-cio-ABRAHAMB-M-H-BRAMPASVEER-id"/>
       <expression value="RelatedPerson.id"/>
       <sourceId value="RelatedPerson-nl-core-relatedperson-cio-ABRAHAMB-M-H-BRAMPASVEER"/>
@@ -385,6 +380,11 @@
       <name value="RelatedPerson-nl-core-relatedperson-cio-MEIKEM-G-J-VANHOOF-id"/>
       <expression value="RelatedPerson.id"/>
       <sourceId value="RelatedPerson-nl-core-relatedperson-cio-MEIKEM-G-J-VANHOOF"/>
+   </variable>
+   <variable>
+      <name value="RelatedPerson-d34e1-ore-relatedperson-cio-PETERP-J-PETERVAN-DENH-id"/>
+      <expression value="RelatedPerson.id"/>
+      <sourceId value="RelatedPerson-d34e1-ore-relatedperson-cio-PETERP-J-PETERVAN-DENH"/>
    </variable>
    <variable>
       <name value="T"/>
@@ -926,12 +926,12 @@
             <resource value="Organization"/>
             <accept value="xml"/>
             <contentType value="xml"/>
-            <params value="/${Organization-d27e1-nl-core-organization-cio-2-16-528-1-1007-3-3--id}"/>
+            <params value="/${Organization-d26e1-nl-core-organization-cio-2-16-528-1-1007-3-3--id}"/>
             <requestHeader>
                <field value="Authorization"/>
                <value value="Bearer 25337a23-71e8-4e5a-93c0-1c92d517924c"/>
             </requestHeader>
-            <sourceId value="Organization-d27e1-nl-core-organization-cio-2-16-528-1-1007-3-3-"/>
+            <sourceId value="Organization-d26e1-nl-core-organization-cio-2-16-528-1-1007-3-3-"/>
          </operation>
       </action>
       <action>
@@ -1094,12 +1094,12 @@
             <resource value="Practitioner"/>
             <accept value="xml"/>
             <contentType value="xml"/>
-            <params value="/${Practitioner-d28e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1--id}"/>
+            <params value="/${Practitioner-d27e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1--id}"/>
             <requestHeader>
                <field value="Authorization"/>
                <value value="Bearer 25337a23-71e8-4e5a-93c0-1c92d517924c"/>
             </requestHeader>
-            <sourceId value="Practitioner-d28e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-"/>
+            <sourceId value="Practitioner-d27e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-"/>
          </operation>
       </action>
       <action>
@@ -1142,12 +1142,12 @@
             <resource value="Practitioner"/>
             <accept value="xml"/>
             <contentType value="xml"/>
-            <params value="/${Practitioner-d29e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1--id}"/>
+            <params value="/${Practitioner-d28e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1--id}"/>
             <requestHeader>
                <field value="Authorization"/>
                <value value="Bearer 25337a23-71e8-4e5a-93c0-1c92d517924c"/>
             </requestHeader>
-            <sourceId value="Practitioner-d29e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-"/>
+            <sourceId value="Practitioner-d28e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-"/>
          </operation>
       </action>
       <action>
@@ -1190,12 +1190,12 @@
             <resource value="Practitioner"/>
             <accept value="xml"/>
             <contentType value="xml"/>
-            <params value="/${Practitioner-d30e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1--id}"/>
+            <params value="/${Practitioner-d29e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1--id}"/>
             <requestHeader>
                <field value="Authorization"/>
                <value value="Bearer 25337a23-71e8-4e5a-93c0-1c92d517924c"/>
             </requestHeader>
-            <sourceId value="Practitioner-d30e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-"/>
+            <sourceId value="Practitioner-d29e1-nl-core-practitioner-cio-2-16-528-1-1007-3-1-"/>
          </operation>
       </action>
       <action>
@@ -1382,30 +1382,6 @@
             <resource value="RelatedPerson"/>
             <accept value="xml"/>
             <contentType value="xml"/>
-            <params value="/${RelatedPerson-d26e1-core-relatedperson-cio-PETERP-J-PETERVANDENH-id}"/>
-            <requestHeader>
-               <field value="Authorization"/>
-               <value value="Bearer 25337a23-71e8-4e5a-93c0-1c92d517924c"/>
-            </requestHeader>
-            <sourceId value="RelatedPerson-d26e1-core-relatedperson-cio-PETERP-J-PETERVANDENH"/>
-         </operation>
-      </action>
-      <action>
-         <assert>
-            <description value="Confirm that the returned HTTP status is 200(OK) or 201(Created)."/>
-            <operator value="in"/>
-            <responseCode value="200,201"/>
-         </assert>
-      </action>
-      <action>
-         <operation>
-            <type>
-               <system value="http://hl7.org/fhir/testscript-operation-codes"/>
-               <code value="updateCreate"/>
-            </type>
-            <resource value="RelatedPerson"/>
-            <accept value="xml"/>
-            <contentType value="xml"/>
             <params value="/${RelatedPerson-nl-core-relatedperson-cio-ABRAHAMB-M-H-BRAMPASVEER-id}"/>
             <requestHeader>
                <field value="Authorization"/>
@@ -1436,6 +1412,30 @@
                <value value="Bearer 25337a23-71e8-4e5a-93c0-1c92d517924c"/>
             </requestHeader>
             <sourceId value="RelatedPerson-nl-core-relatedperson-cio-MEIKEM-G-J-VANHOOF"/>
+         </operation>
+      </action>
+      <action>
+         <assert>
+            <description value="Confirm that the returned HTTP status is 200(OK) or 201(Created)."/>
+            <operator value="in"/>
+            <responseCode value="200,201"/>
+         </assert>
+      </action>
+      <action>
+         <operation>
+            <type>
+               <system value="http://hl7.org/fhir/testscript-operation-codes"/>
+               <code value="updateCreate"/>
+            </type>
+            <resource value="RelatedPerson"/>
+            <accept value="xml"/>
+            <contentType value="xml"/>
+            <params value="/${RelatedPerson-d34e1-ore-relatedperson-cio-PETERP-J-PETERVAN-DENH-id}"/>
+            <requestHeader>
+               <field value="Authorization"/>
+               <value value="Bearer 25337a23-71e8-4e5a-93c0-1c92d517924c"/>
+            </requestHeader>
+            <sourceId value="RelatedPerson-d34e1-ore-relatedperson-cio-PETERP-J-PETERVAN-DENH"/>
          </operation>
       </action>
       <action>
