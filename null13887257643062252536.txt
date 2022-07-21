@@ -1,2 +1,0 @@
-fixtures=;
-rules=rules/assert_response_queryParamsInSelfLink.groovy;rules/assertPDFOrBinary.groovy;
